@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  --color-school-blue: #0C2340;
+  --color-school-gold: #C5A059;
+  --color-school-gold-dark: #b45309;
+  --color-sleek-accent: #F8F9FA;
+  --color-sleek-body: #F0F2F5;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-slate-800 bg-sleek-body;
+  }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
